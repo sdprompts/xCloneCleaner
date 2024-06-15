@@ -29,7 +29,7 @@ A key detail is that the token randomization seed is (by default) identical to t
 
 Enter this url **manually** in auto1111's extension tab:
 
-https://github.com/troyau/xCloneCleaner.git
+https://github.com/sdprompts/xCloneCleaner.git
 
 # How it works
 
