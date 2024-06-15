@@ -1,5 +1,7 @@
 # xCloneCleaner
 
+A fork of https://github.com/artyfacialintelagent/CloneCleaner
+
 An extension for Automatic1111 to work around Stable Diffusion's "clone problem". It automatically modifies your prompts with random names, nationalities, hair style and hair color to create more variations in generated people.
 
 # What it does
@@ -10,13 +12,24 @@ CloneCleaner adds randomized tokens to your prompt that varies the look of a per
 
 A key detail is that the token randomization seed is (by default) identical to the main image seed - this ensures that the same "person" will be generated again if you modify the prompt or reload the metadata.
 
+# Changes made in xCloneCleaner
+
+ - renamed to xCloneCleaner - this little change fixes the issues of conflicting with sd-dynamic-prompts since extensions are run in alphabetic order
+ - added male option along with male type hairstyles
+ - added more hairstyles to female
+ - added a random gender option (will use hairstyle according to the randomised gender)
+
+# Upcoming changes
+
+ - updated hair colors
+ - add more names
+ - add countries not included
+
 # Installation in Automatic1111
 
 Enter this url **manually** in auto1111's extension tab:
 
-https://github.com/artyfacialintelagent/CloneCleaner.git
-
-This first release of CloneCleaner is a public beta and **currently only works for female characters**. Options for male (and indeterminate gender if I can get it to work) coming soon-ish!
+https://github.com/troyau/xCloneCleaner.git
 
 # How it works
 
@@ -35,52 +48,4 @@ Any of the above token components can be optionally excluded from the prompt ran
 
 # Sample images
 
-The following images are produced using **consecutive seeds**, so they are **NOT CHERRY-PICKED** in any way. But to be fair, not all models work quite as well as these - some models are so overtrained that they just can't be saved. The sample PNGs hosted here on Github should contain full metadata, so you can download and inspect them in the PNGinfo tab, or send them to txt2img to reproduce them.
-
-Right-click and select "Open image in a new tab" to view at 100%, or right-click and select "Save image as" to download.
-
-### Absolute Reality v1
-
-These images were created using the [Absolute Reality model](https://civitai.com/models/81458/absolutereality), from a simple test prompt I made up.
-
-**Absolute Reality v1 (baseline model images)**
-![absolutereality_seeds](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/d69ef1e4-6cf6-4401-97bb-bc0eeeef8a2a)
-![absolutereality1](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/64f4fb70-0764-470d-a00a-07b8137000f5)
-
-**Absolute Reality v1 + CloneCleaner (default settings)**
-![absolutereality2](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/a495ac69-cf17-4be9-814f-389403280c39)
-
-**Absolute Reality v1 + CloneCleaner (East Asia only)**
-![absolutereality3](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/9aeeb238-e980-43a8-b5aa-c54baec0a41d)
-
-**Absolute Reality v1 + CloneCleaner (Anglosphere + Europe only, short hair only)**
-![absolutereality4](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/f0218f86-9d53-4127-b9d9-5233e4e46776)
-
-### Photon v1
-
-Using the prompt from the sample image hosted on the [Photon model page on Civitai](https://civitai.com/models/84728/photon), slightly modified to make it more SFW for Github.
-
-**Photon v1 (baseline model images)**
-![photon_seeds](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/33fad4a4-651b-4806-92cc-3c1a01d58fc9)
-![photon1](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/cedea29e-c2c5-4c53-9569-2929db095971)
-
-**Photon v1 + CloneCleaner (default settings)**
-![photon2](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/5da77a58-06f2-45c7-8920-95bf25390de9)
-
-**Photon v1 + CloneCleaner (Africa + South Asia only, no blonde or "other" hair color)**
-![photon3](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/cf8759c4-9ada-4c6e-be6e-4829e3c34eeb)
-
-**Photon v1 + CloneCleaner (Europe only, reddish hair only)**
-![photon4](https://github.com/artyfacialintelagent/CloneCleaner/assets/137619889/58d1755a-1d0c-4c20-bc98-f00a80816147)
-
-# Some tips
-
-I am very happy with how well this simple prompt modification scheme works. But the best part about CloneCleaner is how it made me completely re-evaluate my opinion of many models, mostly positively. So be sure to retest your models using CloneCleaner - they may yet surprise you!
-
-I recommend using **simple prompts** (< 50 tokens), **simple negatives** (< 30 tokens) and **limited attention weighting** (never > :1.2, except as noted below). An effective minimal negative prompt appears below. Just start with this as a basis and add whatever your image seems to need.
-
-**Negative prompt**: *ugly, asian, underage, 3d render, cartoon, doll, (bad low worst quality:1.3)*
-
-The token "asian" is included to counter the heavy bias towards Korean and Chinese women among most popular models. Asian characters should still appear and look perfectly fine even including this token. Usually the attention setting of the final quality prompt should stick to the range 1.1 - 1.4, but a small number of Asian-oriented models can benefit from high (~1.5) or extreme values (up to 2.0!). Note that this is the exception that proves the rule - in most models such extreme weights would heavily "overcook" your images and destroy both quality and variability.
-
-I rarely use attention weights above 1.0 in my prompts and **never** use attention weights above 1.2 for any other tokens in my prompt other than this general quality negative. In my experience this greatly benefits image consistency and reduces mutations, bad hands and other monstrosities without having to explicitly include these things in your negatives.
+Coming Soon
