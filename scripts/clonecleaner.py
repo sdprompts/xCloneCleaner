@@ -45,14 +45,14 @@ class CloneCleanerScript(scripts.Script):
         return scripts.AlwaysVisible
     
     def ui(self, is_img2img):
-        with gr.Accordion("CloneCleaner (beta!)", open=True):
+        with gr.Accordion("xCloneCleaner", open=True):
             dummy_component = gr.Label(visible=False)
             regions = self.prompt_tree["country"].keys()
             hairlength = self.prompt_tree["hair"]["length"].keys()
             haircolor = self.prompt_tree["hair"]["color"].keys()
             with FormRow():
                 with FormColumn(min_width=160):
-                    is_enabled = gr.Checkbox(value=True, label="Enable CloneCleaner")
+                    is_enabled = gr.Checkbox(value=True, label="Enable xCloneCleaner")
                 with FormColumn(elem_id="CloneCleaner_gender"):
                     gender = gr.Radio(["female", "male", "random"], value="female", label="Select Gender")
             with FormRow(elem_id="CloneCleaner_components"):
@@ -207,7 +207,7 @@ class CloneCleanerScript(scripts.Script):
 
 # read with shared.opts.prompt_database_path
 def on_ui_settings():
-    info = shared.OptionInfo("prompt_tree.yml", "CloneCleaner prompt database path", section=("clonecleaner", "CloneCleaner"))
+    info = shared.OptionInfo("prompt_tree.yml", "xCloneCleaner prompt database path", section=("clonecleaner", "xCloneCleaner"))
     shared.opts.add_option("prompt_database_path", info)
 
 script_callbacks.on_ui_settings(on_ui_settings)
