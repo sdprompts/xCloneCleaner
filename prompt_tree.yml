@@ -1,22 +1,28 @@
 hair:
     length:
-        short: [short, (short-cut:1.2)]
-        medium: ["medium (shoulder-length:1.2)", "medium (chin-length:1.2)"]
-        long: [long, "long (waist-length:1.2)"]
+        short: ["short"]
+        medium: ["medium length"]
+        long: ["long"]
     style:
-        short: [straight, bangs, combed, "[undercut|punk]", undercut, brushed-back, slicked-back, brush-cut, pixie-cut, semi-buzzcut, buzzcut, mohawk-style, curly, spiky hairstyle, tussled, bob-cut, pigtails, twintails, ponytail]
-        medium: [straight, windblown, bangs, combed, brushed-back, slicked-back, brush-cut, grown-out pixie-cut, wavy, curly, mohawk-style, frizzy, wild, messy, bob-cut, updo, pigtails, twintails, ponytail]
-        long: [straight, windblown, bangs, combed, brushed-back, slicked-back, brush-cut, wavy, curly, frizzy, wild, messy, updo, glorious, pigtails, twintails, ponytail]
+        male:
+            short: [bald, bangs, blowout, bowl cut, brushed up, burst fade, butch cut, buzz cut, caesar cut, comb over, crew cut, crew fade, curly, fade, fade, faux hawk, flat top, french crop, frohawk, high and tight, induction cut, ivy league, military cut, mohawk, pompadour, punk, quiff, receding, regulation cut, side part, skin fade, slick back, spiky, spiky, straight, taper cut, textured top, tussled, undercut, wavy]
+            medium: [angular fringe, blowout, bro flow, brushed back, combed, comb over fade,  curly, curly afro, curtain bangs, dreadlocks, faux hawk, half ponytail, layered cut, layered fringe, long top, man bun, messy, messy shag, mid-length tousled, modern mullet, mohawk with fade, pompadour, pompadour fade, pompadour with texture, ponytail, quiff, short sides, side part with volume, side swept, slicked back undercut, straight, textured waves, undercut with long top, wavy, wavy bob, wild, windblown]
+            long: [bangs, braided, brushed-back, combed, cornrows, curly, dreadlocks, dreadlocks, frizzy, glorious, high ponytail, layered, man-bun, messy, middle part, ponytail, slicked-back, straight, textured, undercut, wavy, wild, windblown]
+        female:
+            short: [asymmetrical bob, bald, bangs, blunt cut, bob, bowl cut, brushed-back, buzz cut, choppy pixie, combed, crew cut, curly, curly pixie, faux hawk, feathered bob, flapper bob, french bob, graduated bob, layered bob, messy, mohawk, pigtails, pixie-cut, pixie bob, ponytail, punk, razor cut, rounded bob, shaggy bob, side-swept pixie, side part bob, slicked back, spiky, straight, tapered cut, textured crop, tussled, twintails, twist outs, undercut, wedge cut]
+            medium: [angled bob, asymmetrical lob, bangs, beach waves, blunt cut, bob-cut, bohemian waves, braided crown, brushed-back, choppy layers, combed, curly, curtain bangs, feathered layers, flip out bob, french braid, frizzy, grown-out pixie-cut, half-up half-down, hollywood waves, layered cut, lob, messy, messy bun, middle part smooth style, pigtails, ponytail, retro waves, shag cut, side-swept layers, sleek ponytail, slicked-back, slicked-back bob, soft curls, space buns, straight, straight cut with side part, textured waves, tousled layers, twintails, twisted half-up style, updo, wavy, wavy bob with bangs, wet look style, wild, windblown]
+            long: [bangs, beach waves, boho braids, box braids, brushed-back, classic ponytail, combed, curly, curtain bangs, deep side part, double dutch braids, dreadlocks, fish tail braid, french braid, frizzy, full bangs, glorious, half-up half-down with knot, high bun, hollywood waves, layered straight cut, layered waves, curls, layers, shag, low ponytail with waves, messy, pigtails, ponytail, rope twist braid, side braid, sleek chignon, slicked-back, slicked back, spiral curls, straight, straight and sleek, twintails, twisted updo, updo, voluminous blowout, waterfall braids, wavy, wild, windblown]
     color:
-        blonde: [platinum-blonde, ash-blonde, champagne-blonde, sandy-blonde, honey-blonde, dirty-blonde, "[blonde:strawberry-blonde:.1]",
-                    "[blonde:vanilla-blonde:.2]", "[blonde:golden-blonde:.2]", "[blonde:reddish-blonde:.2]", "[blonde:rose-gold:.2]"]
-        red: [auburn, ginger, peach, "[auburn:coral:.3]", "[auburn:copper:.3]", "[auburn:reddish:.4]", "[auburn:crimson:.4]", "[auburn:orange:.4]"]
-        brown: [mocca, chestnut, hazelnut, caramel, cinnamon, coffee, chocolate, charcoal, "[honey-brown:.3]", "[golden-brown:.3]",
-                    "[noisette:.3]", "[bronze:.3]", "[mahogany:.2]", "[maroon:.4]", "[burgundy:.4]"]
-        black: ["[black:.3]", "[nearly black:.3]", "[blue-black:.3]", "[violet-black:.3]", "[reddish-black:.3]"]
-        other: ["[blonde:pastel:.2]", "[blonde:gray-blonde:.2]", "[blonde:silver-blonde:.2]", "[blonde:neon:.3]", "[blonde:multicolored:.3]",
+        blonde: [blonde, light blonde, lightest blonde, dark blonde, platinum-blonde, ash-blonde, champagne-blonde, sandy-blonde, honey-blonde, dirty-blonde, "[blonde:strawberry-blonde:.1]",
+                    "[blonde:vanilla-blonde:.2]", "[blonde:golden-blonde:.2]", "[blonde:reddish-blonde:.2]"]
+        red: [auburn, ginger, red]
+        brown: [light brown, dark brown, brunette, brown, mocca, chestnut, hazelnut, caramel, cinnamon, coffee, chocolate, charcoal]
+        black: ["[black:.3]", "[nearly black:.3]"]
+        other: [white, silver, grey, "[blonde:pastel:.2]", "[blonde:gray-blonde:.2]", "[blonde:silver-blonde:.2]", "[blonde:neon:.3]", "[blonde:multicolored:.3]",
                     "[blonde:rainbow:.3]", "[blonde:pink:.3]", "[blonde:emerald:.3]", "[blonde:mint:.3]", "[blonde:teal:.3]", "[blonde:indigo:.3]",
-                    "[blonde:lilac:.3]", "[blonde:lavender:.3]", "[blonde:violet:.3]"]
+                    "[blonde:lilac:.3]", "[blonde:lavender:.3]", "[blonde:violet:.3]", "[blue-black:.3]", "[violet-black:.3]", "[reddish-black:.3]", 
+                    peach, "[auburn:coral:.3]", "[auburn:copper:.3]", "[auburn:reddish:.4]", "[auburn:crimson:.4]", "[auburn:orange:.4]", 
+                    "[honey-brown:.3]", "[golden-brown:.3]", "[noisette:.3]", "[bronze:.3]", "[mahogany:.2]", "[maroon:.4]", "[burgundy:.4]", "[blonde:rose-gold:.2]"]
     defaultweight:
         Europe:             {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
         Anglosphere:        {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
@@ -28,259 +34,404 @@ hair:
 country:
     Europe:
         Sweden:
-            weight: 3
+            weight: 1
             hair: {blonde: 35, red: 15, brown: 30, black: 15, other: 5}
-            names: [Astrid, Freja, Maja, Ebba, Linnea, Agnes, Amelia, Wilma, Elin, Lovisa, Liv, Alva, Märta, Sigrid, Lova, Emelie, Ida, Åsa, Hilma, Frida, Tyra, Siv, Linn]
+            names-female: [Astrid, Freja, Maja, Ebba, Linnea, Agnes, Amelia, Wilma, Elin, Lovisa, Liv, Alva, Märta, Sigrid, Lova, Emelie, Ida, Åsa, Hilma, Frida, Tyra, Siv, Linn]
+            names-male: [Arvid, Björn, Carl, David, Emil, Fredrik, Gustav, Henrik, Ingvar, Johan, Karl, Lars, Magnus, Nils, Olof, Per, Rolf, Sven, Tomas, Ulf]
         Norway:
-            weight: 2
+            weight: 1
             hair: {blonde: 35, red: 15, brown: 30, black: 15, other: 5}
-            names: [Hedda, Tiril, Tone, Agnes, Silje, Vilde, Martine, Stine, Maren, Mari, Synne, Hanne, Sigrid, Ingvild, Lene, Wenche, Maiken, Ragnhild]
+            names-female: [Hedda, Tiril, Tone, Agnes, Silje, Vilde, Martine, Stine, Maren, Mari, Synne, Hanne, Sigrid, Ingvild, Lene, Wenche, Maiken, Ragnhild]
+            names-male: [Aksel, Bjørn, Christian, Dag, Einar, Fredrik, Geir, Harald, Ivar, Jens, Knut, Lars, Morten, Nils, Odd, Per, Rune, Stian, Tore, Vidar]
         Denmark:
-            weight: 2
+            weight: 1
             hair: {blonde: 35, red: 15, brown: 30, black: 15, other: 5}
-            names: [Nanna, Signe, Amalie, Asta, Nora, Mette, Kirsten, Hanne, Helle, Lene, Lærke, Gry, Laura, Esther, Mathilde, Vera]
+            names-female: [Nanna, Signe, Amalie, Asta, Nora, Mette, Kirsten, Hanne, Helle, Lene, Lærke, Gry, Laura, Esther, Mathilde, Vera]
+            names-male: [Anders, Bent, Christian, Dan, Erik, Finn, Henrik, Jakob, Jesper, Karl, Lars, Mads, Niels, Ole, Peter, Rasmus, Søren, Thomas, Ulrik, Viggo]
         Finland:
-            weight: 2
+            weight: 1
             hair: {blonde: 35, red: 15, brown: 30, black: 15, other: 5}
-            names: [Aino, Helmi, Aada, Onni, Venla, Iida, Eevi, Lilja, Kaarina, Enni, Elli, Pihla, Hannele, Marjatta, Minea, Hilla, Kerttu, Siiri, Veera, Nelli]
+            names-female: [Aino, Helmi, Aada, Onni, Venla, Iida, Eevi, Lilja, Kaarina, Enni, Elli, Pihla, Hannele, Marjatta, Minea, Hilla, Kerttu, Siiri, Veera, Nelli]
+            names-male: [Aaro, Eero, Heikki, Ilkka, Jari, Jukka, Kai, Kari, Lauri, Matti, Mikko, Olli, Pekka, Petri, Risto, Sami, Seppo, Tapio, Vesa, Ville]
         Scotland:
-            weight: 2
+            weight: 1
             hair: {blonde: 20, red: 30, brown: 25, black: 20, other: 5}
-            names: [Isla, Ava, Amelia, Jamie, Sarah, Lucy, Fiona, Evie, Iona, Amy, Eilidh, Bonnie, Sienna, Callie, Skye, Holly, Eilish, Caitlin, Mairi, Moira]
+            names-female: [Isla, Ava, Amelia, Jamie, Sarah, Lucy, Fiona, Evie, Iona, Amy, Eilidh, Bonnie, Sienna, Callie, Skye, Holly, Eilish, Caitlin, Mairi, Moira]
+            names-male: [Alastair, Blair, Callum, Duncan, Ewan, Fergus, Graeme, Hamish, Ian, Jamie, Keith, Lachlan, Malcolm, Niall, Ross, Seumas, Stuart, Tavish, Wallace, Angus]
         Ireland:
-            weight: 2
+            weight: 1
             hair: {blonde: 20, red: 30, brown: 25, black: 20, other: 5}
-            names: [Aoife, Niamh, Caoimhe, Maeve, Cian, Fiadh, Orla, Cara, Molly, Shannon, Kelly, Eabha , Roisin, Riley, Kennedy, Sloane, Fiona, Aisling]
+            names-female: [Aoife, Niamh, Caoimhe, Maeve, Cian, Fiadh, Orla, Cara, Molly, Shannon, Kelly, Eabha , Roisin, Riley, Kennedy, Sloane, Fiona, Aisling]
+            names-male: [mAidan, Brendan, Cian, Declan, Eamon, Fintan, Gavin, Liam, Lorcan, Niall, Oisin, Padraig, Ronan, Seamus, Sean, Tadhg, Tiernan, Cathal, Conor, Eoghan]
         Netherlands:
-            weight: 3
-            names: [Mila, Yara, Evi, Saar, Lieke, Noor, Lotte, Milou, Nova, Fenna, Isa, Roos, Loïs, Esmee, Fien, Lara, Jasmijn, Kiki, Veerle, Juul, Femke, Philou, Guusje]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Mila, Yara, Evi, Saar, Lieke, Noor, Lotte, Milou, Nova, Fenna, Isa, Roos, Loïs, Esmee, Fien, Lara, Jasmijn, Kiki, Veerle, Juul, Femke, Philou, Guusje]
+            names-male: [Bram, Daan, Erik, Floris, Hans, Jan, Jelle, Joost, Koen, Lars, Maarten, Michiel, Niek, Pim, Roel, Sander, Thijs, Tim, Wout, Willem]
         Belgium:
-            weight: 3
-            names: [Marie, Olivia, Camille, Mila, Alexis, Julie, Sacha, Martine, Nathalie, Monique, Rita, Nicole, Christine, Isabelle]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Marie, Olivia, Camille, Mila, Alexis, Julie, Sacha, Martine, Nathalie, Monique, Rita, Nicole, Christine, Isabelle]
+            names-male: [Arnaud, Bart, Benoît, Cedric, Christophe, Didier, Emiel, Gilles, Hugo, Jasper, Kevin, Laurent, Louis, Maarten, Nicolas, Olivier, Pieter, Sébastien, Tom, Yves]
         Germany:
-            weight: 4
-            names: [Johanna, Heidi, Elke, Ilse, Ursula, Frieda, Helga, Anja, Eva, Leni, Berta, Eleonor, Frederike, Franka, Henriette, Irma, Luisa, Margarete]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Johanna, Heidi, Elke, Ilse, Ursula, Frieda, Helga, Anja, Eva, Leni, Berta, Eleonor, Frederike, Franka, Henriette, Irma, Luisa, Margarete]
+            names-male: [Adrian, Andreas, Christoph, Daniel, Fabian, Florian, Hans, Jakob, Jens, Karl, Lars, Leon, Markus, Martin, Michael, Paul, Philipp, Stefan, Thomas, Uwe]
         Czech Republic:
-            weight: 3
-            names: [Barbora, Agata, Adela, Marketa, Karolina, Aneta, Jana, Tereza, Andrea, Zuzana, Martina, Dominika, Ema]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Barbora, Agata, Adela, Marketa, Karolina, Aneta, Jana, Tereza, Andrea, Zuzana, Martina, Dominika, Ema]
+            names-male: [Adam, Bohumil, David, Filip, Jakub, Jan, Jiri, Josef, Karel, Lubomir, Marek, Martin, Michal, Ondrej, Pavel, Petr, Radek, Stanislav, Tomas, Zdenek]
         Poland:
-            weight: 4
-            names: [Antonina, Beata, Anastazja, Aniela, Genowefa, Adelajda, Brygida, Alina, Aldona, Estera, Ewelina, Adela, Augustyna, Aneta, Albina, Alfreda]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Antonina, Beata, Anastazja, Aniela, Genowefa, Adelajda, Brygida, Alina, Aldona, Estera, Ewelina, Adela, Augustyna, Aneta, Albina, Alfreda]
+            names-male: [Adam, Andrzej, Bartosz, Damian, Dawid, Grzegorz, Jakub, Jan, Kamil, Karol, Krzysztof, Łukasz, Maciej, Marek, Marcin, Mateusz, Michał, Paweł, Piotr, Wojciech]
         England:
-            weight: 4
-            names: [Ivy, Amelia, Emily, Alice, Hannah, Eleanor, Daisy, Phoebe, Evie, Florence, Ellie, Poppy, Rosie, Anne, Harriet, Jane, Rebecca, Mary, Alice, Elizabeth, Abigail, Holly, Lucy, Nancy]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Ivy, Amelia, Emily, Alice, Hannah, Eleanor, Daisy, Phoebe, Evie, Florence, Ellie, Poppy, Rosie, Anne, Harriet, Jane, Rebecca, Mary, Alice, Elizabeth, Abigail, Holly, Lucy, Nancy]
+            names-male: [Alfie, Arthur, Benjamin, Charles, Daniel, Edward, George, Harry, Henry, Jack, James, John, Joseph, Oliver, Oscar, Samuel, Thomas, William, Luke, Matthew]
         France:
-            weight: 4
+            weight: 1
             hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
-            names: [Camille, Chloé, Amélie, Celine, Anais, Dominique, Elise, Genevieve, Colette, Delphine, Jeanne, Sylvie, Margot, Eloise, Cecile, Inès, Lucie, Léonie]
+            names-female: [Camille, Chloé, Amélie, Celine, Anais, Dominique, Elise, Genevieve, Colette, Delphine, Jeanne, Sylvie, Margot, Eloise, Cecile, Inès, Lucie, Léonie]
+            names-male: [Adrien, Alexandre, Antoine, Benoît, Christophe, David, Émile, François, Gabriel, Guillaume, Hugo, Jean, Julien, Laurent, Lucas, Mathieu, Nicolas, Pierre, Sébastien, Théo]
         Switzerland:
-            weight: 3
+            weight: 1
             hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
-            names: [Laura, Alina, Mila, Lena, Lina, Alessia, Chiara, Andrea, Jana, Malia, Elea, Liana, Lara, Lia, Livia, Melina]
+            names-female: [Laura, Alina, Mila, Lena, Lina, Alessia, Chiara, Andrea, Jana, Malia, Elea, Liana, Lara, Lia, Livia, Melina]
+            names-male: [Adrian, Andreas, Benoît, Christoph, Daniel, Fabian, Florian, Hans, Jonas, Julian, Karl, Lars, Lukas, Marc, Matthias, Michael, Philippe, Simon, Thomas, Yves]
         Austria:
-            weight: 3
-            names: [Johanna, Lena, Alina, Lea, Valentina, Amélie, Sophie, Magdalena, Marlene, Daniela, Hanna, Leni, Lara, Paulina, Frieda, Mathea, Liana]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Johanna, Lena, Alina, Lea, Valentina, Amélie, Sophie, Magdalena, Marlene, Daniela, Hanna, Leni, Lara, Paulina, Frieda, Mathea, Liana]
+            names-male: [Alexander, Andreas, Bernhard, Christoph, Daniel, David, Florian, Franz, Georg, Jakob, Johannes, Julian, Karl, Lukas, Manuel, Martin, Matthias, Michael, Stefan, Thomas]
         Hungary:
-            weight: 3
-            names: [Lili, Aliz, Bianka, Lilla, Dorina, Dora, Mira, Zita, Emese, Izabella, Liza, Regina, Vivien]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Lili, Aliz, Bianka, Lilla, Dorina, Dora, Mira, Zita, Emese, Izabella, Liza, Regina, Vivien]
+            names-male: [András, Balázs, Bence, Csaba, Dávid, Ferenc, Gábor, Gergő, György, István, János, József, Krisztián, László, Márk, Péter, Sándor, Tamás, Zoltán, Zsolt]
         Slovakia:
-            weight: 3
-            names: [Ema, Nina, Eliška, Viktória, Natália, Nela, Diana, Tamara, Júlia, Karolína, Michaela, Rebeka, Dominika, Lenka, Betka]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Ema, Nina, Eliška, Viktória, Natália, Nela, Diana, Tamara, Júlia, Karolína, Michaela, Rebeka, Dominika, Lenka, Betka]
+            names-male: [Adam, Andrej, Boris, Daniel, Dominik, Filip, Ján, Jozef, Karol, Lukáš, Marek, Martin, Matúš, Michal, Milan, Peter, Róbert, Samuel, Tomáš, Viktor]
         Croatia:
-            weight: 3
-            names: [Elena, Nika, Marta, Marija, Andrea, Ines, Adrijana, Mirjana, Lucija, Petra, Rita, Iva, Mila, Leona, Tena, Franka, Katja, Maša, Nikol, Bruna]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Elena, Nika, Marta, Marija, Andrea, Ines, Adrijana, Mirjana, Lucija, Petra, Rita, Iva, Mila, Leona, Tena, Franka, Katja, Maša, Nikol, Bruna]
+            names-male: [Ante, Bojan, Davor, Dragan, Filip, Franjo, Goran, Hrvoje, Ivan, Ivica, Josip, Krešimir, Luka, Marko, Mario, Nikola, Petar, Stjepan, Tomislav, Zoran]
         Serbia:
-            weight: 3
-            names: [Natalija, Ljubica, Milena, Marija, Adrijana, Mirjana, Jovana, Aleksa, Anja, Gordana, Tijana, Marina, Iskra, Petra]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Natalija, Ljubica, Milena, Marija, Adrijana, Mirjana, Jovana, Aleksa, Anja, Gordana, Tijana, Marina, Iskra, Petra]
+            names-male: [Aleksandar, Bojan, Boris, Dejan, Dragan, Dušan, Filip, Goran, Ivan, Jovan, Luka, Marko, Milan, Miloš, Nenad, Nikola, Petar, Srdjan, Stefan, Zoran]
         Portugal:
-            weight: 3
-            names: [Leonor, Matilde, Beatriz, Carolina, Mariana, Ana, Sofia, Francisca, Inês, Margarida, Benedita, Madalena, Joana, Camila] 
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Leonor, Matilde, Beatriz, Carolina, Mariana, Ana, Sofia, Francisca, Inês, Margarida, Benedita, Madalena, Joana, Camila]
+            names-male: [Afonso, Álvaro, André, António, Bruno, Carlos, Daniel, Diogo, Duarte, Filipe, Francisco, João, José, Luís, Manuel, Miguel, Pedro, Ricardo, Rui, Tiago]            
         Spain:
-            weight: 4
+            weight: 1
             hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
-            names: [Ana, Sofia, Isabella, Lucia, Elena, Carmen, Lola, Mariana, Gabriela, Daniela, Adriana, Valeria, Esmeralda, Juana, Natalia]
+            names-female: [Ana, Sofia, Isabella, Lucia, Elena, Carmen, Lola, Mariana, Gabriela, Daniela, Adriana, Valeria, Esmeralda, Juana, Natalia]
+            names-male: [Alejandro, Álvaro, Antonio, Carlos, Daniel, David, Diego, Eduardo, Francisco, Gabriel, Javier, Jorge, José, Juan, Luis, Manuel, Mario, Miguel, Pablo, Sergio]
         Italy:
-            weight: 4
+            weight: 1
             hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
-            names: [Francesca, Chiara, Giulia, Aurora, Bianca, Alessia, Andrea, Caterina, Lucia, Gaia, Isabella, Giovanna, Elisa, Gabriella, Valentina, Viola]
+            names-female: [Francesca, Chiara, Giulia, Aurora, Bianca, Alessia, Andrea, Caterina, Lucia, Gaia, Isabella, Giovanna, Elisa, Gabriella, Valentina, Viola]
+            names-male: [Alessandro, Andrea, Antonio, Carlo, Davide, Domenico, Federico, Francesco, Giorgio, Giovanni, Giuseppe, Leonardo, Lorenzo, Luca, Marco, Matteo, Michele, Nicola, Paolo, Roberto]
         Greece:
-            weight: 3
+            weight: 1
             hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
-            names: [Eleni, Katerina, Vasiliki, Sophia, Angeliki, Georgia, Dimitra, Konstandina, Paraskevi, Anastasia, Joanna, Danae, Athina, Melina, Ioanna]
+            names-female: [Eleni, Katerina, Vasiliki, Sophia, Angeliki, Georgia, Dimitra, Konstandina, Paraskevi, Anastasia, Joanna, Danae, Athina, Melina, Ioanna]
+            names-male: [Adonis, Alexandros, Andreas, Christos, Dimitrios, Georgios, Ioannis, Konstantinos, Kyriakos, Lefteris, Leonidas, Michail, Nikolaos, Panagiotis, Pavlos, Petros, Spyros, Stavros, Theodoros, Vasilis]
         Romania:
-            weight: 3
-            names: [Antonia, Andreea, Ioana, Alexandra, Luminita, Alina, Bianca, Iolanda, Lavinia, Daniela, Stefana, Doina, Simona, Iulian, Claudia, Angelika]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Antonia, Andreea, Ioana, Alexandra, Luminita, Alina, Bianca, Iolanda, Lavinia, Daniela, Stefana, Doina, Simona, Iulian, Claudia, Angelika]
+            names-male: [Adrian, Alexandru, Andrei, Bogdan, Cătălin, Ciprian, Cristian, Daniel, Dragoș, Florin, George, Ionut, Lucian, Marian, Mihai, Nicolae, Radu, Robert, Sebastian, Valentin]
         Turkey:
-            weight: 4
-            names: [Elif, Ayşe, Asli, Azra, Aysun, Emel, Dilara, Derya, Afet, Alara, Beyza, Damla, Meryem, Ceren, Nuray, Miray, Ayten, Esra, Eymen, Caria, Esma]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Elif, Ayşe, Asli, Azra, Aysun, Emel, Dilara, Derya, Afet, Alara, Beyza, Damla, Meryem, Ceren, Nuray, Miray, Ayten, Esra, Eymen, Caria, Esma]
+            names-male: [Ahmet, Ali, Barış, Burak, Cem, Emre, Erkan, Fatih, Hasan, İbrahim, Kemal, Mehmet, Murat, Mustafa, Oğuz, Selim, Serkan, Tamer, Yusuf, Zeki]
         Ukraine:
-            weight: 4
-            names: [Aleksandra, Daryna, Olena, Lavra, Ivanna, Anastasia, Bohdana, Maryska, Ionna, Alisa, Nyura, Alina, Aneta, Myroslava, Marynia, Galyna, Nastunye, Nastasiya]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Aleksandra, Daryna, Olena, Lavra, Ivanna, Anastasia, Bohdana, Maryska, Ionna, Alisa, Nyura, Alina, Aneta, Myroslava, Marynia, Galyna, Nastunye, Nastasiya]
+            names-male: [Andriy, Artem, Bohdan, Dmytro, Ihor, Ivan, Kostyantyn, Maksym, Mykola, Oleksandr, Oleksiy, Pavlo, Petro, Roman, Serhiy, Taras, Valentyn, Vitaliy, Volodymyr, Yaroslav]
         Belarus:
-            weight: 3
-            names: [Alina, Elena, Ekaterina, Anya, Faina, Darya, Svetlana, Aleksandra, Natasha, Arina, Alisa, Natalia]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Alina, Elena, Ekaterina, Anya, Faina, Darya, Svetlana, Aleksandra, Natasha, Arina, Alisa, Natalia]
+            names-male: [Aliaksandr, Andrei, Anton, Artsiom, Dzmitry, Hienadz, Ihar, Ivan, Kastuś, Leanid, Maksim, Mikalai, Paval, Pyotr, Raman, Siarhei, Stanislau, Uladzimir, Viktar, Yury]
         Russia:
-            weight: 5
-            names: [Anastasia, Irina, Galina, Anya, Alina, Svetlana, Mila, Ekaterina, Angelina, Oksana, Olga, Nikita, Natasha, Arina, Kira, Sasha, Alisa, Nadia, Alla, Darya]
+            weight: 1
+            hair: {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
+            names-female: [Anastasia, Irina, Galina, Anya, Alina, Svetlana, Mila, Ekaterina, Angelina, Oksana, Olga, Nikita, Natasha, Arina, Kira, Sasha, Alisa, Nadia, Alla, Darya]
+            names-male: [Aleksei, Andrei, Anton, Boris, Daniil, Dmitry, Evgeny, Fyodor, Igor, Ivan, Kirill, Maksim, Mikhail, Nikolai, Pavel, Sergei, Stanislav, Valentin, Vladimir, Yuri]
     Anglosphere:
         England:
-            weight: 4
-            names: [Ivy, Amelia, Emily, Alice, Hannah, Eleanor, Daisy, Phoebe, Evie, Florence, Ellie, Poppy, Rosie, Anne, Harriet, Jane, Rebecca, Mary, Alice, Elizabeth, Abigail, Holly, Lucy, Nancy]
+            weight: 1
+            hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
+            names-female: [Ivy, Amelia, Emily, Alice, Hannah, Eleanor, Daisy, Phoebe, Evie, Florence, Ellie, Poppy, Rosie, Anne, Harriet, Jane, Rebecca, Mary, Alice, Elizabeth, Abigail, Holly, Lucy, Nancy]
+            names-male: [Alexander, Benjamin, Charles, Daniel, Edward, George, Henry, Jack, James, John, Joseph, Matthew, Michael, Oliver, Richard, Robert, Samuel, Thomas, William, Christopher]
         USA:
-            weight: 5
-            names: [Charlotte, Amelia, Emma, Abigail, Alice, Mia, Eleanor, Sarah, Evelyn, Olivia, Grace, Sophia, Emily, Zuri, Destiny, Amari, Nia, Michelle, Brianna, Ebony,
+            weight: 1
+            hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
+            names-female: [Charlotte, Amelia, Emma, Abigail, Alice, Mia, Eleanor, Sarah, Evelyn, Olivia, Grace, Sophia, Emily, Zuri, Destiny, Amari, Nia, Michelle, Brianna, Ebony,
                         Eshe, Candice, Tiana, Toni, Jasmine, Simone, Tiffany, Nala, Camila, Sofia, Elena, Valentina, Natalia, Lucia, Alaia, Ximena, Valeria, Catalina]
+            names-male: [Andrew, Brandon, Brian, Christopher, David, Ethan, Jacob, Jason, Jeffrey, John, Joshua, Justin, Kevin, Matthew, Michael, Nathan, Ryan, Steven, Tyler, William]            
         Canada:
-            weight: 3
-            names: [Emily, Amelia, Sarah, Mila, Ellie, Mackenzie, Claire, Lily, Zoey, Evelyn, Avery, Abigail, Madison, Madeline, Everly, Ivy, Hailey, Addison]
+            weight: 1
+            hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
+            names-female: [Emily, Amelia, Sarah, Mila, Ellie, Mackenzie, Claire, Lily, Zoey, Evelyn, Avery, Abigail, Madison, Madeline, Everly, Ivy, Hailey, Addison]
+            names-male: [Alexander, Benjamin, Brandon, Cameron, Christopher, Daniel, David, Dylan, Ethan, Jacob, James, John, Joshua, Justin, Liam, Lucas, Matthew, Michael, Nathan, Ryan]
         Australia:
-            weight: 3
-            names: [Charlotte, Amelia, Ava, Sienna, Matilda, Evie, Zara, Mackenzie, Aria, Violet, Florence, Ivy, Elsie, Layla, Frankie, Daisy, Sadie, Stella, Millie]
+            weight: 1
+            hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
+            names-female: [Charlotte, Amelia, Ava, Sienna, Matilda, Evie, Zara, Mackenzie, Aria, Violet, Florence, Ivy, Elsie, Layla, Frankie, Daisy, Sadie, Stella, Millie]
+            names-male: [Alexander, Benjamin, Blake, Caleb, Cameron, Christopher, Daniel, Dylan, Ethan, Harry, Jack, Jacob, James, Joshua, Lachlan, Liam, Luke, Matthew, Oliver, Samuel]
         New Zealand:
             weight: 1
-            names: [Lilly, Lainie, Heide, Emme, Opal, Lacey, Livvie, Adalie, Sidonie, Dunja, Gitta, Kiani, Kenia, Rubia, Ophélie, Zäzilie, Zina, Marli, Meya]
+            hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
+            names-female: [Lilly, Lainie, Heide, Emme, Opal, Lacey, Livvie, Adalie, Sidonie, Dunja, Gitta, Kiani, Kenia, Rubia, Ophélie, Zäzilie, Zina, Marli, Meya]
+            names-male: [Alexander, Benjamin, Caleb, Charlie, Daniel, Dylan, Elijah, Ethan, Finn, George, Harrison, Jack, James, Joshua, Lachlan, Leo, Liam, Lucas, Noah, Oliver]
     MENA:
         Israel:
-            weight: 2
+            weight: 1
             hair: {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
-            names: [Ariel, Leah, Rachel, Esther, Naomi, Talia, Shira, Yael, Lia, Aviva, Moriah, Delilah, Romi]
+            names-female: [Ariel, Leah, Rachel, Esther, Naomi, Talia, Shira, Yael, Lia, Aviva, Moriah, Delilah, Romi]
+            names-male: [Amit, Ariel, Avi, Barak, David, Eitan, Eli, Gal, Haim, Itai, Jonathan, Lior, Meir, Moshe, Nadav, Noam, Oren, Shai, Tomer, Yossi]
         Lebanon:
-            weight: 2
-            names: [Nour, Aya, Alaa, Souad, Reewa, Ilham, Salwa, Sawsane, Fatme, Dina, Elza, Ghofran, Farah]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Nour, Aya, Alaa, Souad, Reewa, Ilham, Salwa, Sawsane, Fatme, Dina, Elza, Ghofran, Farah]
+            names-male: [Abbas, Ahmad, Ali, Amin, Bilal, Fadi, Farid, Ghassan, Hassan, Hussein, Jad, Karim, Khaled, Mahmoud, Omar, Rami, Samir, Tarek, Walid, Youssef]
         Iran:
-            weight: 4
-            names: [Bahar, Fatemeh, Anahita, Fariba, Parisa, Shirin, Darya, Zahra, Maryam, Yasmin, Rana, Mahsa, Nasrin, Cyra, Haleh]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Bahar, Fatemeh, Anahita, Fariba, Parisa, Shirin, Darya, Zahra, Maryam, Yasmin, Rana, Mahsa, Nasrin, Cyra, Haleh]
+            names-male: [Ali, Amir, Arash, Babak, Behzad, Dariush, Ehsan, Farhad, Hossein, Kaveh, Mahdi, Majid, Mohammad, Nima, Reza, Saeed, Shahram, Siavash, Vahid, Yasin]
         Syria:
-            weight: 2
-            names: [Amena, Reem, Qamar, Haya, Ousa, Rosarita, Aischa, Hala, Uri, Rojda, Layal, Ranim, Souzan]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Amena, Reem, Qamar, Haya, Ousa, Rosarita, Aischa, Hala, Uri, Rojda, Layal, Ranim, Souzan]
+            names-male: [Ahmad, Ali, Amin, Anas, Basel, Bilal, Fadi, Farid, Ghassan, Hassan, Hisham, Jamal, Khaled, Maher, Mahmoud, Omar, Rami, Sami, Tarek, Youssef]
         Saudi Arabia:
-            weight: 3
-            names: [Fatima, Jamila, Amira, Hanifa, Farida, Halima, Farah, Malika, Nabila, Habiba, Maha, Karima, Khalida, Maryam, Tahira, Ghada, Nadia, Naila]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Fatima, Jamila, Amira, Hanifa, Farida, Halima, Farah, Malika, Nabila, Habiba, Maha, Karima, Khalida, Maryam, Tahira, Ghada, Nadia, Naila]
+            names-male: [Abdullah, Ahmed, Ali, Amir, Fahad, Faisal, Hamad, Hassan, Ibrahim, Khalid, Mansour, Mohammed, Nasser, Omar, Rashed, Saad, Salman, Sultan, Talal, Youssef]
         Egypt:
-            weight: 4
-            names: [Jana, Amunet, Mariam, Salma, Jamila, Aya, Anippe, Halima, Jomana, Isis, Renenutet, Farida, Dalia, Dendera, Eshe, Amal, Yasmin]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Jana, Amunet, Mariam, Salma, Jamila, Aya, Anippe, Halima, Jomana, Isis, Renenutet, Farida, Dalia, Dendera, Eshe, Amal, Yasmin]
+            names-male: [Ahmed, Ali, Amr, Anwar, Ehab, Farouk, Hamza, Hassan, Ibrahim, Khaled, Mahmoud, Mohamed, Mustafa, Nader, Omar, Rami, Samir, Tamer, Youssef, Ziad]
         Algeria:
-            weight: 3
-            names: [Yasmine, Amina, Inčs, Amel, Meriem, Rania, Asma, Nesrine, Mina, Feriel, Anais, Ikram, Camelia, Chiraz, Dounia, Samira]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Yasmine, Amina, Inčs, Amel, Meriem, Rania, Asma, Nesrine, Mina, Feriel, Anais, Ikram, Camelia, Chiraz, Dounia, Samira]
+            names-male: [Abdelkader, Ahmed, Ali, Amine, Anis, Aziz, Bilal, Farid, Hamza, Hassan, Hicham, Khaled, Mehdi, Mohamed, Mourad, Nadir, Omar, Rachid, Samir, Yacine]
         Morocco:
-            weight: 3
-            names: [Amina, Fatima, Salma, Aziza, Faiza, Hajar, Ikram, Farah, Naima, Layla, Adil, Amal, Amira, Jamila, Marwa, Inès, Rania, Zineb]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Amina, Fatima, Salma, Aziza, Faiza, Hajar, Ikram, Farah, Naima, Layla, Adil, Amal, Amira, Jamila, Marwa, Inès, Rania, Zineb]
+            names-male: [Abdellah, Ahmed, Ali, Amine, Anas, Bilal, Driss, Hamza, Hassan, Hicham, Khalid, Mehdi, Mohamed, Mostafa, Nabil, Omar, Rachid, Reda, Samir, Youssef]
     Sub-Saharan Africa:
         Nigeria:
-            weight: 5
-            names: [Tami, Remi, Sade, Ima, Toya, Tobi, Tomi, Tari, Ajah, Tona, Nneka, Dola, Chioma, Chimere, Zelie, Tonna, Timi, Amarachi, Chiamaka, Adanna, Chinyere]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Tami, Remi, Sade, Ima, Toya, Tobi, Tomi, Tari, Ajah, Tona, Nneka, Dola, Chioma, Chimere, Zelie, Tonna, Timi, Amarachi, Chiamaka, Adanna, Chinyere]
+            names-male: [Abdul, Ademola, Akin, Chidi, Chike, Emeka, Femi, Ibrahim, Ifeanyi, Jide, Kelechi, Kehinde, Kunle, Musa, Nnamdi, Obinna, Olu, Sadiq, Tunde, Uche]
         Ethiopia:
-            weight: 4
-            names: [Kayla, Aisha, Amara, Ayana, Zena, Sheba, Amira, Gabra, Jahzara, Makda, Nyala]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Kayla, Aisha, Amara, Ayana, Zena, Sheba, Amira, Gabra, Jahzara, Makda, Nyala]
+            names-male: [Abebe, Addis, Amare, Bekele, Dawit, Elias, Fikre, Haile, Kassa, Kebede, Lemma, Meles, Mekonnen, Mesfin, Mulatu, Seyoum, Tamrat, Tesfaye, Yared, Yohannes]
         Congo:
-            weight: 4
-            names: [Belvie, Mado, Rosine, Ruth, Malicia, Exaucée, Keicha, Grasnie, Benie, Chinelvie, Fiavina, Mireille, Aminata, Dayana, Peniel, Taime]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Belvie, Mado, Rosine, Ruth, Malicia, Exaucée, Keicha, Grasnie, Benie, Chinelvie, Fiavina, Mireille, Aminata, Dayana, Peniel, Taime]
+            names-male: [Alain, André, Blaise, Cedric, Charles, Claude, Didier, Emmanuel, Fabrice, Gaston, Jean-Pierre, Joseph, Laurent, Luc, Marcel, Patrice, Pascal, Richard, Serge, Thierry]
         Tanzania:
-            weight: 3
-            names: [Mila, Nia, Lulu, Malia, Imani, Asha, Zahra, Aida, Asma, Kali, Lela, Habiba, Rabia, Tisha, Shani, Khadija, Naima]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Mila, Nia, Lulu, Malia, Imani, Asha, Zahra, Aida, Asma, Kali, Lela, Habiba, Rabia, Tisha, Shani, Khadija, Naima]
+            names-male: [Abasi, Baraka, Daniel, Emmanuel, Faraji, Hamisi, Issa, Jafari, John, Joseph, Julius, Khamis, Lucas, Musa, Nassor, Peter, Rashid, Salim, Suleiman, Yohana]
         South Africa:
-            weight: 3
+            weight: 1
             hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
-            names: [Melokuhle, Omphile, Iminathi, Lisakhanya, Lethabo, Amahle, Lesedi, Rethabile, Christal, Danelle, Alida, Marli, Gerrie, Mariette, Aletta, Leane, Lizanne, Lindie, Elize]
+            names-female: [Melokuhle, Omphile, Iminathi, Lisakhanya, Lethabo, Amahle, Lesedi, Rethabile, Christal, Danelle, Alida, Marli, Gerrie, Mariette, Aletta, Leane, Lizanne, Lindie, Elize]
+            names-male: [Abel, Andile, Bongani, Charl, Dlamini, Elias, Francois, Gideon, Hannes, Jabulani, Kagiso, Lungile, Mandla, Nkosinathi, Palesa, Riaan, Sipho, Themba, Thulani, Zwelakhe]
         Kenya:
-            weight: 3
-            names: [Mila, Imani, Cora, Nia, Kamaria, Nadia, Mumbi, Lulu, Zahra, Lela, Habiba, Shani, Khadija, Naima, Aluna, Kamaria, Zakiya]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Mila, Imani, Cora, Nia, Kamaria, Nadia, Mumbi, Lulu, Zahra, Lela, Habiba, Shani, Khadija, Naima, Aluna, Kamaria, Zakiya]
+            names-male: [Abdallah, Alex, Ben, David, Dennis, Eliud, Francis, George, Hassan, James, John, Joseph, Kevin, Michael, Moses, Peter, Samuel, Simon, Stephen, Thomas]
         Uganda:
-            weight: 3
-            names: [Florence, Joan, Sarah, Alice, Tracy, Evelyn, Hanifah, Mariam, Charity, Martha, Angel, Catherine, Patricia, Blessing, Patience, Diana, Ritah]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Florence, Joan, Sarah, Alice, Tracy, Evelyn, Hanifah, Mariam, Charity, Martha, Angel, Catherine, Patricia, Blessing, Patience, Diana, Ritah]
+            names-male: [Abdu, Alex, Brian, Charles, David, Denis, Emmanuel, Francis, Godfrey, Hassan, Isaac, James, John, Joseph, Michael, Peter, Robert, Samuel, Simon, Steven]
         Sudan:
-            weight: 3
-            names: [Roaa, Ruba, Abrar, Felicia, Akong, Doaa, Esraa, Rayan, Nancy, Anila, Kate, Naelia]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Roaa, Ruba, Abrar, Felicia, Akong, Doaa, Esraa, Rayan, Nancy, Anila, Kate, Naelia]
+            names-male: [Abdallah, Ahmed, Ali, Amr, Awad, Bakri, Bashir, Bilal, Faisal, Hamid, Hassan, Ibrahim, Idris, Khalid, Mahmoud, Mohamed, Mustafa, Omar, Salih, Yassin]
         Angola:
-            weight: 2
-            names: [Ooli, Samara, Hannah, Jazmine, Leila, Hiki, Miranda, Rosine, Cynthia, Nattat, Lara, Christina, Abigail]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Ooli, Samara, Hannah, Jazmine, Leila, Hiki, Miranda, Rosine, Cynthia, Nattat, Lara, Christina, Abigail]
+            names-male: [Adriano, Afonso, Álvaro, António, Augusto, Carlos, Daniel, Domingos, Eduardo, Fernando, Francisco, João, Joaquim, José, Luís, Manuel, Marcos, Pedro, Ricardo, Sebastião]
         Mozambique:
-            weight: 2
-            names: [Gaia, Gabrielle, Chelsea, Leila, Hedda, Hyacinta, Xiluva]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Gaia, Gabrielle, Chelsea, Leila, Hedda, Hyacinta, Xiluva]
+            names-male: [Abel, Adriano, Afonso, Alberto, Alfredo, Amílcar, António, Armando, Carlos, Daniel, Eduardo, Fernando, Francisco, João, Joaquim, José, Luís, Manuel, Paulo, Ricardo]
         Ghana:
-            weight: 2
-            names: [Beatrice, Sandra, Priscilla, Abigail, Angela, Esther, Barbara, Alberta, Doris, Linda, Cecilia, Blessing, Maame, Ruth, Patricia, Nancy, Eunice, Janet]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Beatrice, Sandra, Priscilla, Abigail, Angela, Esther, Barbara, Alberta, Doris, Linda, Cecilia, Blessing, Maame, Ruth, Patricia, Nancy, Eunice, Janet]
+            names-male: [Akwasi, Amankwah, Daniel, David, Emmanuel, Eric, Francis, Isaac, James, John, Joseph, Kofi, Kojo, Kwabena, Kwame, Kweku, Michael, Nana, Samuel, Yaw]
         Madagascar:
-            weight: 2
-            names: [Miora, Stephanie, Aina, Rotsy, Domoina, Cynthia, Raissa, Erica, Aliciah, Lili, Miantsa, Christelle, Linah, Tsiky, Hanitra]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Miora, Stephanie, Aina, Rotsy, Domoina, Cynthia, Raissa, Erica, Aliciah, Lili, Miantsa, Christelle, Linah, Tsiky, Hanitra]
+            names-male: [Andry, Bako, Faly, Faniry, Fy, Haja, Herisoa, Hery, Jean, Lala, Mamy, Njaka, Rado, Rivo, Sitraka, Tafita, Tantely, Tiana, Tojo, Tsiry]
         Cameroon:
-            weight: 2
-            names: [Joaddan, Armelle, Sandra, Esther, Daniella, Tracy, Rosy, Mylléna, Jade, Carine, Maeva, Tatiana]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Joaddan, Armelle, Sandra, Esther, Daniella, Tracy, Rosy, Mylléna, Jade, Carine, Maeva, Tatiana]
+            names-male: [Acha, Alain, Benoît, Bertrand, Blaise, Calvin, Claude, Didier, Emmanuel, Etienne, Fabrice, Georges, Jean-Paul, Jules, Kevin, Lionel, Marcel, Patrice, Serge, Yves]
     Latin America:
         Brazil:
-            weight: 5
-            names: [Maria, Fernanda, Ana, Gabriela, Aline, Francisca, Beatriz, Julia, Bruna, Antonia, Clara, Helena, Marcia, Flavia, Juliana, Patricia, Vitoria, Bianca]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names-female: [Maria, Fernanda, Ana, Gabriela, Aline, Francisca, Beatriz, Julia, Bruna, Antonia, Clara, Helena, Marcia, Flavia, Juliana, Patricia, Vitoria, Bianca]
+            names-male: [Carlos, João, Pedro, Lucas, Bruno, Gabriel, Thiago, Rafael, Felipe, Gustavo, Diego, Matheus, Daniel, André, Leonardo, Eduardo, Fernando, Rodrigo, Alexandre, Marcelo]
         Mexico:
-            weight: 4
-            names: [Juana, Gabriela, Isabella, Elena, Alejandra, Lola, Ana, Lucia, Rosa, Veronica, Daniela, Fernanda, Valeria, Valentina, Carmen, Catalina, Leticia, Francisca, Mariana, Luna]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names-female: [Juana, Gabriela, Isabella, Elena, Alejandra, Lola, Ana, Lucia, Rosa, Veronica, Daniela, Fernanda, Valeria, Valentina, Carmen, Catalina, Leticia, Francisca, Mariana, Luna]
+            names-male: [Carlos, José, Juan, Luis, Miguel, Antonio, Alejandro, Pedro, Manuel, Jorge, Ricardo, Rafael, Eduardo, Fernando, Roberto, Diego, Andrés, Sergio, Francisco, Mario]
         Colombia:
-            weight: 3
-            names: [Isabella, Ana, Daniela, Mariana, Gabriela, Valentina, Luciana, Carmen, Adriana, Guadalupe, Antonia, Natalia, Lucia, Bianca, Clara, Lina, Rosa, Lola]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names-female: [Isabella, Ana, Daniela, Mariana, Gabriela, Valentina, Luciana, Carmen, Adriana, Guadalupe, Antonia, Natalia, Lucia, Bianca, Clara, Lina, Rosa, Lola]
+            names-male: [Carlos, Juan, José, Luis, Andrés, Alejandro, Miguel, David, Fernando, Jorge, Pedro, Felipe, Daniel, Diego, Santiago, Manuel, Rafael, Ricardo, Sergio, Antonio]
         Argentina:
-            weight: 3
-            names: [Camila, Agustina, Paula, Valentina, Ana, Julieta, Micaela, Martina, Daiana, Natalia, Carolina, Noelia, Lucia, Juana]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names-female: [Camila, Agustina, Paula, Valentina, Ana, Julieta, Micaela, Martina, Daiana, Natalia, Carolina, Noelia, Lucia, Juana]
+            names-male: [Carlos, Juan, José, Luis, Pablo, Federico, Alejandro, Martín, Diego, Andrés, Fernando, Gabriel, Nicolás, Manuel, Ricardo, Sergio, Francisco, Matías, Tomás, Rafael]
         Peru:
-            weight: 3
-            names: [Agata, Alejandra, Antonella, Arsenia, Beatriz, Claudia, Daniela, Dominga, Evita, Guadalupe, Irene, Karmina, Manuela, Maritza, Ofelia, Pilar, Roberta, Teresa, Valentina, Xaviera, Ximena]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names-female: [Agata, Alejandra, Antonella, Arsenia, Beatriz, Claudia, Daniela, Dominga, Evita, Guadalupe, Irene, Karmina, Manuela, Maritza, Ofelia, Pilar, Roberta, Teresa, Valentina, Xaviera, Ximena]
+            names-male: [Carlos, José, Juan, Luis, Andrés, Alejandro, Pedro, Manuel, Jorge, David, Miguel, Ricardo, Rafael, Eduardo, Fernando, Roberto, Diego, Francisco, Sergio, Antonio]
         Venezuela:
-            weight: 3
-            names: [Gioia, Aymar, Consuelo, Mariángela, Gabriela, Vanessa, Selene, Susana, Paola, Federica, Mariam, Claudia, Carolina, Ligia]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names-female: [Gioia, Aymar, Consuelo, Mariángela, Gabriela, Vanessa, Selene, Susana, Paola, Federica, Mariam, Claudia, Carolina, Ligia]
+            names-male: [Carlos, Juan, José, Luis, Andrés, Alejandro, Pedro, Manuel, Jorge, David, Rafael, Ricardo, Eduardo, Fernando, Roberto, Diego, Francisco, Sergio, Antonio, Gabriel]
         Chile:
-            weight: 2
-            names: [Isabella, Valentina, Laura, Catalina, Fernanda, Mila, Florencia, Julieta, Gabriela, Isidora, Martina, Josefa, Daniela, Antonia, Constanza, Agustina, Lucia]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names-female: [Isabella, Valentina, Laura, Catalina, Fernanda, Mila, Florencia, Julieta, Gabriela, Isidora, Martina, Josefa, Daniela, Antonia, Constanza, Agustina, Lucia]
+            names-male: [Carlos, Juan, José, Luis, Andrés, Alejandro, Pedro, Manuel, Jorge, David, Rafael, Ricardo, Eduardo, Fernando, Roberto, Diego, Francisco, Sergio, Antonio, Gabriel]
         Ecuador:
-            weight: 2
-            names: [Ana, Gabriela, Maria, Camila, Carla, Elena, Graciela, Lucia, Giselle, Andrea, Daniela, Viviana, Juliana]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names-female: [Ana, Gabriela, Maria, Camila, Carla, Elena, Graciela, Lucia, Giselle, Andrea, Daniela, Viviana, Juliana]
+            names-male: [Carlos, José, Juan, Luis, Andrés, Alejandro, Pedro, Manuel, Jorge, David, Rafael, Ricardo, Eduardo, Fernando, Roberto, Diego, Francisco, Sergio, Antonio, Gabriel]
         Guatemala:
-            weight: 2
-            names: [Michelle, Andrea, Esmeralda, Rosa, Luz, Belen, Camila, Isabela, Angelita]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names-female: [Michelle, Andrea, Esmeralda, Rosa, Luz, Belen, Camila, Isabela, Angelita]
+            names-male: [Carlos, José, Juan, Luis, Andrés, Alejandro, Pedro, Manuel, Jorge, David, Rafael, Ricardo, Eduardo, Fernando, Roberto, Diego, Francisco, Sergio, Antonio, Gabriel]
         Cuba:
             weight: 1
-            names: [Adelgonda, Agata, Alegria, Alejandra, Angela, Arsenia, Beatriz, Bertalina, Daniela, Dominga, Evita, Georgina, Guadalupe, Havana, Ivelisse, Karmina, Manuela, Maritza, Pabla, Pilar, Roberta, Teresa, Ximena, Yamile]
+            hair: {blonde: 10, red: 5, brown: 30, black: 50, other: 5}
+            names-female: [Adelgonda, Agata, Alegria, Alejandra, Angela, Arsenia, Beatriz, Bertalina, Daniela, Dominga, Evita, Georgina, Guadalupe, Havana, Ivelisse, Karmina, Manuela, Maritza, Pabla, Pilar, Roberta, Teresa, Ximena, Yamile]
+            names-male: [Carlos, José, Juan, Luis, Andrés, Alejandro, Pedro, Manuel, Jorge, David, Rafael, Ricardo, Eduardo, Fernando, Roberto, Diego, Francisco, Sergio, Antonio, Gabriel]
     East Asia:
         China:
-            weight: 5
-            names: [Huan, Ling, Feng, Bao, Jie, Ping, Mei, Liu, Xia, Lian, Chun, Chang, Qing, Xiang, Xue, Qiao, Lei, Caihong, Ying, Jiayi, Lanying]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 10, black: 70, other: 5}
+            names-female: [Huan, Ling, Feng, Bao, Jie, Ping, Mei, Liu, Xia, Lian, Chun, Chang, Qing, Xiang, Xue, Qiao, Lei, Caihong, Ying, Jiayi, Lanying]
+            names-male: [Wei, Ming, Tao, Lei, Jun, Jie, Jian, Cheng, Hao, Li, Feng, Yang, Xiang, Bo, Xin, Zhen, Ping, Qiang, Wen, Yong]
         Mongolia:
             weight: 1
-            names: [Sunjidmaa, Minjinsor, Darimaa, Solongo, Yanjmaa, Ariunzaya, Khongorzul, Gankhuyagiin, Davaademberel, Batkhuyagiin, Batchimeg, Yanjaa, Ankhmaa, Namgar, Nominjin]
+            hair: {blonde: 10, red: 5, brown: 10, black: 70, other: 5}
+            names-female: [Sunjidmaa, Minjinsor, Darimaa, Solongo, Yanjmaa, Ariunzaya, Khongorzul, Gankhuyagiin, Davaademberel, Batkhuyagiin, Batchimeg, Yanjaa, Ankhmaa, Namgar, Nominjin]
+            names-male: [Bat, Bayar, Bold, Chuluun, Dorj, Erdene, Gan, Ganbaatar, Ganzorig, Jargal, Munkh, Naran, Od, Sukh, Tsetseg, Ulaan, Uuganaa, Zorig, Batsaikhan, Baatar]
         South-Korea:
-            weight: 2
-            names: [Seo-yeon, Min-seo, Seo-hyeon, Su-bin, Yoo-jin, Min-ji, Seo-yeong, Ji-won, Soo-min, Ye-won, Mi-sun, Hyo-Sonn, Sun-Hee]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 10, black: 70, other: 5}
+            names-female: [Seo-yeon, Min-seo, Seo-hyeon, Su-bin, Yoo-jin, Min-ji, Seo-yeong, Ji-won, Soo-min, Ye-won, Mi-sun, Hyo-Sonn, Sun-Hee]
+            names-male: [Jin, Min, Hyun, Jun, Ho, Sang, Joon, Ki, Seok, Tae, Young, Soo, Hoon, Dong, Kyung, Jae, Won, Chan, Sun, Byung]
         Taiwan:
             weight: 1
-            names: [Shu-fen, Shu-hui, Mei-ling, Ya-ting, Mei-hua, Li-hua, Shu-chen, Yi-chun, Tzu-hui, Xian-cha, Ching-min, Chun-yi, Jiau-hua, Ming-zhu, Pei-chien, Pei-yu, Shu-Fang, Xiu-xi]
+            hair: {blonde: 10, red: 5, brown: 10, black: 70, other: 5}
+            names-female: [Shu-fen, Shu-hui, Mei-ling, Ya-ting, Mei-hua, Li-hua, Shu-chen, Yi-chun, Tzu-hui, Xian-cha, Ching-min, Chun-yi, Jiau-hua, Ming-zhu, Pei-chien, Pei-yu, Shu-Fang, Xiu-xi]
+            names-male: [Wei, Ming, Jie, Jun, Li, Hao, Tao, Yang, Jian, Cheng, Xiang, Zhen, Bo, Ping, Lei, Qiang, Xin, Yong, Wen, Feng]
         Hong Kong:
             weight: 1
-            names: [Ellie, Avery, Charlotte, Renee, Cheryl, Evelyn, Hailey, Cynthia, Sylvia, Ally, Hannah, Chloe, Daphne, Aria, Riley, Emily, Mandy, Amber, Catherine, Natalie, Lily, Michelle]
+            hair: {blonde: 10, red: 5, brown: 10, black: 70, other: 5}
+            names-female: [Ellie, Avery, Charlotte, Renee, Cheryl, Evelyn, Hailey, Cynthia, Sylvia, Ally, Hannah, Chloe, Daphne, Aria, Riley, Emily, Mandy, Amber, Catherine, Natalie, Lily, Michelle]
+            names-male: [Wei, Ming, Tao, Lei, Jun, Jie, Jian, Cheng, Hao, Li, Feng, Yang, Xiang, Bo, Xin, Zhen, Ping, Qiang, Wen, Yong]
         Japan:
-            weight: 2
-            names: [Aoi, Akari, Sakura, Ayaka, Akira, Aki, Hinata, Akane, Hikari, Keiko, Kei, Chiyo, Kaede, Ayame, Hanako, Ayako, Akiko, Chika, Ayumi, Yuki]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 10, black: 70, other: 5}
+            names-female: [Aoi, Akari, Sakura, Ayaka, Akira, Aki, Hinata, Akane, Hikari, Keiko, Kei, Chiyo, Kaede, Ayame, Hanako, Ayako, Akiko, Chika, Ayumi, Yuki]
+            names-male: [Hiroshi, Takashi, Kenji, Yuki, Taro, Shinji, Daichi, Satoshi, Kenta, Shota, Koji, Naoki, Ryo, Haruto, Akira, Yuta, Masaru, Kazuki, Yusuke, Hideki]
         Indonesia:
-            weight: 2
-            names: [Aulia, Budiwati, Bulan, Citra, Gendis, Indri, Kadek, Kemala, Komang, Lestari, Maharani, Melati, Mawar, Mayang, Ningrum, Ningsih, Permata, Pertiwi, Puspita, Putri, Ratih, Sinta, Siti, Wati, Yanti]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 10, black: 70, other: 5}
+            names-female: [Aulia, Budiwati, Bulan, Citra, Gendis, Indri, Kadek, Kemala, Komang, Lestari, Maharani, Melati, Mawar, Mayang, Ningrum, Ningsih, Permata, Pertiwi, Puspita, Putri, Ratih, Sinta, Siti, Wati, Yanti]
+            names-male: [Agus, Budi, Dedi, Eko, Fajar, Hadi, Iman, Joko, Kris, Lukman, Mulyadi, Narto, Ono, Putra, Rudi, Satria, Taufik, Ujang, Wahyu, Yuda]
         Philippines:
-            weight: 2
-            names: [Joyce, Cindy, Ruby, Michelle, Serena, Jewel, Nancy, Alodia, Bianca, Chynna, Coleen, Diane, Isabel, Janine, Mariel, Nina, Rachel, Valerie]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 10, black: 70, other: 5}
+            names-female: [Joyce, Cindy, Ruby, Michelle, Serena, Jewel, Nancy, Alodia, Bianca, Chynna, Coleen, Diane, Isabel, Janine, Mariel, Nina, Rachel, Valerie]
+            names-male: [Jose, Juan, Carlos, Luis, Andres, Miguel, Pedro, Manuel, Jorge, Antonio, Rafael, Ricardo, Eduardo, Fernando, Roberto, Diego, Francisco, Sergio, Gabriel, Alberto]
         Vietnam:
-            weight: 2
-            names: [Anh, Bao, Chau, Chinh, Chi, Dao, Duong, Giang, Hoa, Huong, Khanh, Khuyen, Linh, Loan, Minh, Mai, Ngan, Nhung, Nguyet, Phuong, Quyen, Suong, Thanh, Thuy, Trinh, Vinh, Xinh, Xuyen]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 10, black: 70, other: 5}
+            names-female: [Anh, Bao, Chau, Chinh, Chi, Dao, Duong, Giang, Hoa, Huong, Khanh, Khuyen, Linh, Loan, Minh, Mai, Ngan, Nhung, Nguyet, Phuong, Quyen, Suong, Thanh, Thuy, Trinh, Vinh, Xinh, Xuyen]
+            names-male: [Anh, Bao, Binh, Cuong, Duy, Hoang, Hung, Khoa, Lam, Long, Minh, Nam, Phuc, Quan, Sang, Thien, Tuan, Vinh, Vu, Xuan]
         Thailand:
-            weight: 2
-            names: [Dara, Kamala, Mali, Han, Chariya, Arich, Anchali, Chanthira, Mani, Rune, Kanya, Khajee, Naiyana, Pakpao, Ying, Chalermwan, Chantana, Hansa, Maliwan]
+            weight: 1
+            hair: {blonde: 10, red: 5, brown: 10, black: 70, other: 5}
+            names-female: [Dara, Kamala, Mali, Han, Chariya, Arich, Anchali, Chanthira, Mani, Rune, Kanya, Khajee, Naiyana, Pakpao, Ying, Chalermwan, Chantana, Hansa, Maliwan]
+            names-male: [Arthit, Boon, Chai, Dacha, Ek, Gawin, Kiet, Lek, Manit, Niran, Phong, Rung, Sakda, Thitipong, Udom, Wanchai, Yotin, Prasert, Somchai, Anan]
     South Asia:
         India:
-            weight: 5
-            names: [Saanvi, Anika, Aditi, Prisha, Aarna, Divya, Parvati, Jiya, Riya, Aaradhya, Myra, Isha, Siya, Anaya, Anaisha, Jaya, Aarya, Ahana, Zara, Gayatri, Aarushi, Aarvi, Adya, Damini]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Saanvi, Anika, Aditi, Prisha, Aarna, Divya, Parvati, Jiya, Riya, Aaradhya, Myra, Isha, Siya, Anaya, Anaisha, Jaya, Aarya, Ahana, Zara, Gayatri, Aarushi, Aarvi, Adya, Damini]
+            names-male: [Amit, Arjun, Ashok, Deepak, Gaurav, Harish, Karan, Manish, Mukesh, Naveen, Pankaj, Pradeep, Rahul, Rajesh, Sanjay, Sunil, Suresh, Vikas, Vijay, Vishal]
         Pakistan:
-            weight: 2
-            names: [Fatima, Inaya, Haniya, Maira, Zainab, Aafreen, Zoya, Neha, Aabish, Aaeedah, Eman, Aaminah, Aalia, Aamaal, Aamira, Aadila, Anabia, Anam, Sana]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Fatima, Inaya, Haniya, Maira, Zainab, Aafreen, Zoya, Neha, Aabish, Aaeedah, Eman, Aaminah, Aalia, Aamaal, Aamira, Aadila, Anabia, Anam, Sana]
+            names-male: [Abdullah, Ahmed, Ali, Bilal, Faisal, Farhan, Hassan, Imran, Javed, Kamran, Khalid, Mohammed, Nadeem, Omar, Qasim, Rashid, Saad, Shahid, Tariq, Zafar]
         Bangladesh:
-            weight: 2
-            names: [Barsha, Farhan, Megh, Chandni, Rifah, Hridi, Labiba, Rafia, Disha, Muhaiminul, Abida, Oporajita, Sharmin, Fariha, Nawrin, Samreen, Anamika, Rafsan, Meghbalika, Sanjana, Ranya]
+            weight: 1
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Barsha, Farhan, Megh, Chandni, Rifah, Hridi, Labiba, Rafia, Disha, Muhaiminul, Abida, Oporajita, Sharmin, Fariha, Nawrin, Samreen, Anamika, Rafsan, Meghbalika, Sanjana, Ranya]
+            names-male: [Abdul, Ahmed, Akram, Amin, Anis, Azad, Farid, Habib, Hassan, Imran, Kamal, Mahmud, Nasir, Rafiq, Rashid, Saif, Shahid, Tariq, Yasin, Zakir]
         Nepal:
             weight: 1
-            names: [Dhanvi, Ditya, Gamya, Ehani, Chirasmi, Fatehjit, Binsa, Chaha, Bhavisana, Bilhana, Shanoli, Chirashree, Bhavaroopa, Kasmitha, Kopisha, Feba, Feshikha, Chaarumathi, Eenakshi, Chantin, Chimini, Baijanthi]
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Dhanvi, Ditya, Gamya, Ehani, Chirasmi, Fatehjit, Binsa, Chaha, Bhavisana, Bilhana, Shanoli, Chirashree, Bhavaroopa, Kasmitha, Kopisha, Feba, Feshikha, Chaarumathi, Eenakshi, Chantin, Chimini, Baijanthi]
+            names-male: [Arjun, Binod, Dinesh, Gopal, Hari, Krishna, Lalit, Manoj, Nabin, Narayan, Prakash, Rajesh, Ram, Ramesh, Sagar, Santosh, Shankar, Sunil, Suraj, Umesh]
         Sri Lanka:
             weight: 1
-            names: [Hiruni, Tharushi, Sachini, Bhagya, Nethmi, Janani, Sanduni, Thilini, Rashmi, Samadhi, Harshani, Upeksha, Nipuni, Dinithi, Chathu, Senuri, Hansani, Chalani, Shehara, Gayani]
+            hair: {blonde: 5, red: 5, brown: 10, black: 75, other: 5}
+            names-female: [Hiruni, Tharushi, Sachini, Bhagya, Nethmi, Janani, Sanduni, Thilini, Rashmi, Samadhi, Harshani, Upeksha, Nipuni, Dinithi, Chathu, Senuri, Hansani, Chalani, Shehara, Gayani]
+            names-male: [Amal, Anura, Asanka, Bandara, Chaminda, Dinesh, Gayan, Harsha, Janaka, Kanishka, Lakmal, Mahesh, Nalin, Pradeep, Ranga, Saman, Sanjaya, Tharanga, Upul, Waruna]
