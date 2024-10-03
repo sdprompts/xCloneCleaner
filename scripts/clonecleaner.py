@@ -30,6 +30,10 @@ def get_last_params(declone_seed, gallery_index):
         return [int(float(params.get("CC_declone_seed", "-0.0"))) + gallery_index, gr_show(False)]
 
 def sorted_difference(a, b):
+    if a is None:
+        a = []
+    if b is None:
+        b = []
     newlist = list(set(a).difference(b))
     newlist.sort()
     return newlist
@@ -130,7 +134,16 @@ class CloneCleanerScript(scripts.Script):
         if exclude_haircolor:
             p.extra_generation_params["CC_exclude_haircolor"] = ",".join(exclude_haircolor)
 
-        countrytree = self.prompt_tree["country"]
+         # Ensure exclude_regions is not None
+        if exclude_regions is None:
+            exclude_regions = []
+
+        countrytree = self.prompt_tree.get("country", {})
+        if not countrytree:
+            print("Error: 'countrytree' is not properly initialized.")
+            regions = []
+        else:
+            regions = sorted_difference(countrytree.keys(), exclude_regions)
         hairtree = self.prompt_tree["hair"]
 
         regions = sorted_difference(countrytree.keys(), exclude_regions)

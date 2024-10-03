@@ -13,16 +13,16 @@ hair:
             medium: [angled bob, asymmetrical lob, bangs, beach waves, blunt cut, bob-cut, bohemian waves, braided crown, brushed-back, choppy layers, combed, curly, curtain bangs, feathered layers, flip out bob, french braid, frizzy, grown-out pixie-cut, half-up half-down, hollywood waves, layered cut, lob, messy, messy bun, middle part smooth style, pigtails, ponytail, retro waves, shag cut, side-swept layers, sleek ponytail, slicked-back, slicked-back bob, soft curls, space buns, straight, straight cut with side part, textured waves, tousled layers, twintails, twisted half-up style, updo, wavy, wavy bob with bangs, wet look style, wild, windblown]
             long: [bangs, beach waves, boho braids, box braids, brushed-back, classic ponytail, combed, curly, curtain bangs, deep side part, double dutch braids, dreadlocks, fish tail braid, french braid, frizzy, full bangs, glorious, half-up half-down with knot, high bun, hollywood waves, layered straight cut, layered waves, curls, layers, shag, low ponytail with waves, messy, pigtails, ponytail, rope twist braid, side braid, sleek chignon, slicked-back, slicked back, spiral curls, straight, straight and sleek, twintails, twisted updo, updo, voluminous blowout, waterfall braids, wavy, wild, windblown]
     color:
-        blonde: [blonde, light blonde, lightest blonde, dark blonde, platinum-blonde, ash-blonde, champagne-blonde, sandy-blonde, honey-blonde, dirty-blonde, "[blonde:strawberry-blonde:.1]",
-                    "[blonde:vanilla-blonde:.2]", "[blonde:golden-blonde:.2]", "[blonde:reddish-blonde:.2]"]
+        blonde: [blonde, light blonde, lightest blonde, dark blonde, platinum-blonde, ash-blonde, champagne-blonde, sandy-blonde, honey-blonde, dirty-blonde, strawberry-blonde,
+                    vanilla-blonde, golden-blonde, reddish-blonde]
         red: [auburn, ginger, red]
         brown: [light brown, dark brown, brunette, brown, mocca, chestnut, hazelnut, caramel, cinnamon, coffee, chocolate, charcoal]
-        black: ["[black:.3]", "[nearly black:.3]"]
-        other: [white, silver, grey, "[blonde:pastel:.2]", "[blonde:gray-blonde:.2]", "[blonde:silver-blonde:.2]", "[blonde:neon:.3]", "[blonde:multicolored:.3]",
-                    "[blonde:rainbow:.3]", "[blonde:pink:.3]", "[blonde:emerald:.3]", "[blonde:mint:.3]", "[blonde:teal:.3]", "[blonde:indigo:.3]",
-                    "[blonde:lilac:.3]", "[blonde:lavender:.3]", "[blonde:violet:.3]", "[blue-black:.3]", "[violet-black:.3]", "[reddish-black:.3]", 
-                    peach, "[auburn:coral:.3]", "[auburn:copper:.3]", "[auburn:reddish:.4]", "[auburn:crimson:.4]", "[auburn:orange:.4]", 
-                    "[honey-brown:.3]", "[golden-brown:.3]", "[noisette:.3]", "[bronze:.3]", "[mahogany:.2]", "[maroon:.4]", "[burgundy:.4]", "[blonde:rose-gold:.2]"]
+        black: [black, nearly black]
+        other: [white, silver, grey, blonde-pastel, gray-blonde, silver-blonde, neon-blonde, multicolored,
+                    rainbow, pink, emerald, mint, teal, indigo,
+                    lilac, lavender, violet, blue-black, violet-black, reddish-black, 
+                    peach, coral, copper, reddish, crimson, orange, 
+                    honey-brown, golden-brown, noisette, bronze, mahogany, maroon, burgundy, rose-gold]
     defaultweight:
         Europe:             {blonde: 20, red: 15, brown: 35, black: 25, other: 5}
         Anglosphere:        {blonde: 15, red: 10, brown: 35, black: 35, other: 5}
