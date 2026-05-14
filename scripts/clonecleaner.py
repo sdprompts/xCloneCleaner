@@ -7,7 +7,10 @@ from modules import scripts, script_callbacks, shared, paths
 from modules.processing import Processed
 from modules.ui_components import FormRow, FormColumn, FormGroup, ToolButton
 from modules.ui import random_symbol, reuse_symbol, gr_show
-from modules.generation_parameters_copypaste import parse_generation_parameters
+try:
+    from modules.infotext_utils import parse_generation_parameters
+except ImportReferenceError:
+    from modules.generation_parameters_copypaste import parse_generation_parameters
 
 def read_yaml():
     promptfile = os.path.join(scripts.basedir(), "prompt_tree.yml")
